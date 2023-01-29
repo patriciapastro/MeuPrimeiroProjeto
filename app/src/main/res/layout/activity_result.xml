@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ResultActivity">
+
+    <TextView
+        android:textColor="@color/teal_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Seu IMC é:"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:textSize="26dp"/>
+
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        tools:text="27.104"
+        android:textAlignment="center"
+        android:textSize="38sp" />
+
+    <TextView
+        android:id="@+id/textview_classificacao"
+        android:layout_margin="8dp"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Classificação: Normal - Grau: 0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Veja a tabela de classificão do IMC, segundo a OMS:"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:text="-> Menor que 18,5: Abaixo do peso. Grau de Risco: 0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:text="-> Entre 18,5 e 24,9: Peso normal. Grau de Risco: 0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:text="-> Entre 25,0 e 29,9: Sobrepeso. Grau de Risco: I"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:text="-> Entre 30,0 e 39,9: Obesidade. Grau de Risco: II"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:text="-> Maior que 40,0: Obesidade Grave. Grau de Risco: III"/>
+</LinearLayout>
